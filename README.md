@@ -1,4 +1,4 @@
-<p><img src=https://www.vippng.com/png/full/426-4260786_onion-vector-cut-onion-clipart-png.png/></p>
+<p><img src=https://github.com/AlfredoAbarca/DiggerDDW/blob/main/vippng.com-onion-plant-png-1865999.png/></p>
 
 # Cortando la cebolla
 
