@@ -1,6 +1,6 @@
 <p><img src=https://github.com/AlfredoAbarca/DiggerDDW/blob/main/vippng.com-onion-plant-png-1865999.png/></p>
 
-# Cortando la cebolla
+# Hackeando la dark web (Actualizacion 2023)
 
 ## (Y no morir en el intento)
 
