@@ -6,7 +6,7 @@ out_fileName="$out_fileName$date.csv"
 old_fileName="Old_$out_fileName"
 rm $out_fileName
 rm $old_fileName
-for file in `ls -tr *.txt`; do cat $file >> $out_fileName;done
+for file in `ls -tr *.txt`; do term=$(echo $file | awk -F'_' '{print $2}');sed -i 's///' $file ; sed -i 's/$/;'"$term"'/' $file; sed -i 's/\"//g' $file;cat $file >> $out_fileName;done
 cat $out_fileName | awk -F';' '{print $4}' | uniq > all_hosts.csv
 sed -r '/^\s*$/d' all_hosts.csv > all_hosts2.csv
 sed -r '/^.{,60}$/d' all_hosts2.csv > all_hosts3.csv
